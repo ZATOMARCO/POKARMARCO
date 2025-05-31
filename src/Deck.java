@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Deck {
-    private List<Card> cartas = new ArrayList<>();
+    private final List<Card> cartas = new ArrayList<>();
     private final String[] palos = {"tréboles", "corazones", "picas", "diamantes"};
     private final String[] valores = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "A", "J", "Q", "K"};
 
